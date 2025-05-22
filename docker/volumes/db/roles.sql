@@ -1,8 +1,3 @@
--- NOTE: change to your own passwords for production environments
-\set pgpass `echo "$POSTGRES_PASSWORD"`
-
-ALTER USER authenticator WITH PASSWORD :'pgpass';
-ALTER USER pgbouncer WITH PASSWORD :'pgpass';
-ALTER USER supabase_auth_admin WITH PASSWORD :'pgpass';
-ALTER USER supabase_functions_admin WITH PASSWORD :'pgpass';
-ALTER USER supabase_storage_admin WITH PASSWORD :'pgpass';
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ad717b225daa38aa982da26750f35641eb404e1eb5e69a763c22236ab96c1b2
+size 379

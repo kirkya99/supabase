@@ -1,6 +1,3 @@
-\set pguser `echo "$POSTGRES_USER"`
-
-\c _supabase
-create schema if not exists _analytics;
-alter schema _analytics owner to :pguser;
-\c postgres
+version https://git-lfs.github.com/spec/v1
+oid sha256:f0463ce5030907acef49326d2bffd36002df0718035071be7c99bd7fc897c63d
+size 144
