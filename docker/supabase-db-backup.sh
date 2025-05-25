@@ -33,5 +33,5 @@ git add dump.sql
 git commit -m "supabase-db backup"
 git pull --rebase
 git push
-
+rm dump.sql.bak
 echo "Backup complete and synced with GitHub."
